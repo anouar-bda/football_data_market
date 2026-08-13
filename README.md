@@ -43,7 +43,7 @@ narrative claims:
   (Sofascore, xscores) no professional data-provider partnership for any of the nine
   companies I tracked.
 - **Partnerships**: sourced from company newsrooms and industry press (FIFA.com, Genius Sports
-  newsroom) — see `source_url` fields in the `sql/schema.sql` data load.
+  newsroom) see `source_url` fields in the `sql/schema.sql` data load.
 
 ## Tools
 
