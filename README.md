@@ -12,8 +12,7 @@ Anouar Lacheheb · [GitHub](https://github.com/anouar-bda) · [LinkedIn](https:/
 The football data-and-analytics industry (Opta, Hudl, StatsBomb, Genius Sports, Sportradar,
 SkillCorner, Catapult, Transfermarkt) is usually described informally, company by company.
 I wanted to treat it as a market to be mapped instead: who leads which data-type segment,
-how fragmented the competition actually is, and — using regional coverage as the evidence —
-where the market hasn't been contested yet.
+how fragmented the competition actually is, and using regional coverage as the evidence where the market hasn't been contested yet.
 
 ## Objective
 
@@ -23,25 +22,25 @@ narrative claims:
  Which company leads each data-type segment (statistical/event data, video & scouting,
    betting data & rights, tracking/positional data, transfer/market-value data)?
  Is the market actually fragmented, or does one company dominate across segments?
- Which regions are well-served, and which are not — specifically, is there a real gap
+ Which regions are well-served, and which are not specifically, is there a real gap
    in North Africa / Morocco (Botola Pro)?
 
 ## Data & Methodology
 
 - **Market sizing**: Mordor Intelligence Sports Analytics Market Report (2026 figure: $5.28B,
   2031 projection: $17.88B, reported CAGR 27.63%). I independently recomputed the CAGR from
-  the two raw data points as a sanity check (`sql/analysis_queries.sql`, query 6) — it matched
+  the two raw data points as a sanity check (`sql/analysis_queries.sql`, query 6), it matched
   the reported figure exactly.
 - **Company segment shares**: since only Genius Sports (NYSE: GENI) is publicly listed and
   discloses financials, every other company's segment share here is an **estimate** I derived
-  from documented partnership scope and industry-adoption reporting — I'm not presenting these
+  from documented partnership scope and industry-adoption reporting, I'm not presenting these
   as revenue. Each estimate carries a `basis_note` in the database explaining how I derived it
   (see `company_segment_share` table).
 - **Regional coverage**: built from a documented search pass (Aug 2026) checking whether each
   company has any disclosed official partnership or product presence in Europe, North America,
   Asia-Pacific, continental Africa (CAF), and North Africa specifically. For Botola Pro
   (Morocco's top division), the only sources I found were fan-facing score aggregators
-  (Sofascore, xscores) — no professional data-provider partnership for any of the nine
+  (Sofascore, xscores) no professional data-provider partnership for any of the nine
   companies I tracked.
 - **Partnerships**: sourced from company newsrooms and industry press (FIFA.com, Genius Sports
   newsroom) — see `source_url` fields in the `sql/schema.sql` data load.
@@ -52,10 +51,10 @@ narrative claims:
   (`sql/analysis_queries.sql`): segment-leader lookups, fragmentation check, cross-segment
   player identification, regional coverage gap and summary, CAGR verification, partnership
   timeline.
-- **Python** (`python/build_database.py`, `python/run_analysis.py`) — builds the database,
+- **Python** (`python/build_database.py`, `python/run_analysis.py`)  builds the database,
   loads the dataset I researched with documented provenance, runs and verifies all seven
   analysis queries, exports flat Tableau-ready CSVs.
-- **Tableau Public** — final interactive dashboard built from the flat exports in
+- **Tableau Public** final interactive dashboard built from the flat exports in
   `tableau/*.csv`. Published dashboard: **.
 
 ## Key Findings
@@ -63,15 +62,15 @@ narrative claims:
 - **No company spans the full data stack.** Cross-segment analysis (query 3) shows only
   Stats Perform and Hudl active in two segments each; every other company (Genius Sports,
   Sportradar, SkillCorner, Catapult, Transfermarkt) is a single-segment specialist.
-- **The market is genuinely fragmented, not concentrated** — betting data & rights alone has
+- **The market is genuinely fragmented, not concentrated** betting data & rights alone has
   three companies each holding a meaningful (≥10%) share, together accounting for 100% of the
   estimated segment.
 - **Regional coverage is starkly uneven.** Europe and North America show full/partial presence
   from all 7 companies I tracked with regional data; continental Africa and North Africa
-  specifically show presence from only 1 of 7 (14.3%) — Transfermarkt, via its general free
+  specifically show presence from only 1 of 7 (14.3%) Transfermarkt, via its general free
   market-value coverage, not a dedicated football-data product.
 - **No official data-provider partnership for Botola Pro** across any of the nine companies I
-  researched — this gap isn't inferred from the absence of a market report, it's confirmed by
+  researched this gap isn't inferred from the absence of a market report, it's confirmed by
   checking each company directly.
 
 ## Repository Structure
@@ -104,7 +103,7 @@ football_data_market/
 - Regional coverage is based on a single documented search pass, not primary confirmation from
   each company (e.g. a direct inquiry to Opta or Hudl about African coverage). A stronger
   version of this project would follow up with each company directly.
-- "Coverage" as I've defined it means a disclosed partnership or product presence — it doesn't
+- "Coverage" as I've defined it means a disclosed partnership or product presence, it doesn't
   capture whether a company's general product (e.g. Transfermarkt) is actually used by anyone
   in that region in practice.
 
