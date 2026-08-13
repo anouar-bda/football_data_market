@@ -56,7 +56,7 @@ narrative claims:
   loads the dataset I researched with documented provenance, runs and verifies all seven
   analysis queries, exports flat Tableau-ready CSVs.
 - **Tableau Public** — final interactive dashboard built from the flat exports in
-  `tableau/*.csv`. Published dashboard: *[add link once published]*.
+  `tableau/*.csv`. Published dashboard: **.
 
 ## Key Findings
 
