@@ -1,4 +1,4 @@
-# Football Data Market Landscape / Competitive Analysis & the MENA Gap
+# Football Data Market Landscape  /  Competitive Analysis & Gap #
 
 Independent project · 2026
 
