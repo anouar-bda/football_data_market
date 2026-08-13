@@ -1,4 +1,4 @@
-# Football Data Market Landscape — Competitive Analysis & the MENA Gap
+# Football Data Market Landscape / Competitive Analysis & the MENA Gap
 
 Independent project · 2026
 SQL · Python · Tableau
@@ -18,10 +18,10 @@ where the market hasn't been contested yet.
 I set out to answer three questions with a reproducible SQL/Python pipeline rather than
 narrative claims:
 
-1. Which company leads each data-type segment (statistical/event data, video & scouting,
+ Which company leads each data-type segment (statistical/event data, video & scouting,
    betting data & rights, tracking/positional data, transfer/market-value data)?
-2. Is the market actually fragmented, or does one company dominate across segments?
-3. Which regions are well-served, and which are not — specifically, is there a real gap
+ Is the market actually fragmented, or does one company dominate across segments?
+ Which regions are well-served, and which are not — specifically, is there a real gap
    in North Africa / Morocco (Botola Pro)?
 
 ## Data & Methodology
