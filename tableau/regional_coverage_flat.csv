@@ -1,0 +1,36 @@
+company_name,ownership_type,region_name,coverage_status,note
+Catapult,public,Asia-Pacific,partial,
+Genius Sports,public,Asia-Pacific,unknown,
+Hudl,private,Asia-Pacific,unknown,
+SkillCorner,private,Asia-Pacific,unknown,
+Sportradar,public,Asia-Pacific,partial,
+Stats Perform (Opta),private,Asia-Pacific,partial,
+Transfermarkt,private,Asia-Pacific,full,
+Catapult,public,CAF / Continental Africa,unknown,
+Genius Sports,public,CAF / Continental Africa,unknown,
+Hudl,private,CAF / Continental Africa,unknown,
+SkillCorner,private,CAF / Continental Africa,unknown,
+Sportradar,public,CAF / Continental Africa,unknown,
+Stats Perform (Opta),private,CAF / Continental Africa,unknown,
+Transfermarkt,private,CAF / Continental Africa,partial,
+Catapult,public,Europe (major leagues),full,
+Genius Sports,public,Europe (major leagues),full,
+Hudl,private,Europe (major leagues),full,
+SkillCorner,private,Europe (major leagues),full,
+Sportradar,public,Europe (major leagues),full,
+Stats Perform (Opta),private,Europe (major leagues),full,
+Transfermarkt,private,Europe (major leagues),full,
+Catapult,public,North Africa (Botola Pro / Morocco),none,No official professional data-provider partnership found for Botola Pro as of Aug 2026 search
+Genius Sports,public,North Africa (Botola Pro / Morocco),none,No official professional data-provider partnership found for Botola Pro as of Aug 2026 search
+Hudl,private,North Africa (Botola Pro / Morocco),none,No official professional data-provider partnership found for Botola Pro as of Aug 2026 search
+SkillCorner,private,North Africa (Botola Pro / Morocco),none,No official professional data-provider partnership found for Botola Pro as of Aug 2026 search
+Sportradar,public,North Africa (Botola Pro / Morocco),none,No official professional data-provider partnership found for Botola Pro as of Aug 2026 search
+Stats Perform (Opta),private,North Africa (Botola Pro / Morocco),none,No official professional data-provider partnership found for Botola Pro as of Aug 2026 search
+Transfermarkt,private,North Africa (Botola Pro / Morocco),partial,
+Catapult,public,North America,full,
+Genius Sports,public,North America,partial,
+Hudl,private,North America,partial,
+SkillCorner,private,North America,partial,
+Sportradar,public,North America,partial,
+Stats Perform (Opta),private,North America,partial,
+Transfermarkt,private,North America,full,

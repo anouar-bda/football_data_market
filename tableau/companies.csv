@@ -1,0 +1,10 @@
+company_name,parent_group,ownership_type,hq_country,founded_year,primary_model
+Catapult,,public,Australia,2006,GPS/wearable tracking; live training-ground data and automated reporting (OpenField)
+Genius Sports,,public,UK,2001,Official live betting-data distribution; sub-second odds feeds to sportsbooks; NYSE: GENI
+Hudl,Hudl,private,USA,2006,Video analysis + scouting workflow platform; consolidated StatsBomb and Wyscout under one roof
+SkillCorner,,private,France,2018,Broadcast-camera-based tracking data; no wearables required; open-data releases
+Sportradar,,public,Switzerland,2001,Betting-data distribution and sports integrity services; competing rights holder to Genius Sports
+Stats Perform (Opta),,private,USA/UK,1996,Official statistical/event data provider; AI-driven data products; licenses to media & betting
+StatsBomb,Hudl,private,UK,2018,"Advanced event data (~3,400 events/match) and xG models; acquired by Hudl in 2024"
+Transfermarkt,,private,Germany,2000,"Crowd-estimated market values, transfer and squad data; free-access alternative"
+Wyscout,Hudl,private,Italy,2004,Video scouting + positional data platform; acquired by Hudl in 2023
