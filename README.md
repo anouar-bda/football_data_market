@@ -1,6 +1,8 @@
 # Football Data Market Landscape / Competitive Analysis & the MENA Gap
 
 Independent project · 2026
+
+
 SQL · Python · Tableau
 
 Anouar Lacheheb · [GitHub](https://github.com/anouar-bda) · [LinkedIn](https://www.linkedin.com/in/anouar-lacheheb-328052398) · [Portfolio](https://anouarlacheheb.com)
