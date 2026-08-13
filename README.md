@@ -108,11 +108,3 @@ football_data_market/
   capture whether a company's general product (e.g. Transfermarkt) is actually used by anyone
   in that region in practice.
 
-## What I'd Do With More Time
-
-- Reach out directly to SkillCorner, Hudl, and Opta to confirm (or correct) the North Africa
-  coverage finding rather than relying on public-source absence.
-- Build a small primary dataset of what data Botola Pro clubs currently do have access to (if
-  any), to turn "no provider found" into "here is what exists instead."
-- Extend the regional-coverage table to more African leagues beyond Morocco to see whether the
-  gap is Morocco-specific or continent-wide.
